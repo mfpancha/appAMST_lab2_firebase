@@ -91,7 +91,7 @@ public class PerfilUsuario extends AppCompatActivity {
         hola_tweet.put("autor", autor);
         hola_tweet.put("fecha", fecha);
         DatabaseReference tweets = db_reference.child("Grupo 2").child("Tweets");
-        DatabaseReference nuevoTweetRef = tweets.push(); // Generar una nueva clave única
+        DatabaseReference nuevoTweetRef = tweets.push(); //  Generar una nueva clave única
         nuevoTweetRef.child(tweet).child("autor").setValue(autor);
         nuevoTweetRef.child(tweet).child("fecha").setValue(fecha);
     }
