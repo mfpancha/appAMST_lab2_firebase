@@ -21,17 +21,18 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
-    FirebaseAuth mAuth;
-    GoogleSignInClient mGoogleSignInClient;
-    CallbackManager callbackManager;
-
+    private FirebaseAuth mAuth;
+    private GoogleSignInClient mGoogleSignInClient;
+    private CallbackManager callbackManager;
     private PerfilUsuario perfilUsuario;
 
     @Override
@@ -117,8 +118,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("info_user", info_user);
             startActivity(intent);
         } else {
-            System.out.println("sin registrarse");
-
+           System.out.println("sin registrarse");
         }
 
     }
