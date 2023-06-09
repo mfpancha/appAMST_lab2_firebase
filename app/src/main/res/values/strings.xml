@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">appAMST_lab2_firebase</string>
+    <string name="facebook_app_id">798848691596080</string>
+    <string name="fb_login_protocol_scheme">fb798848691596080</string>
+    <string name="facebook_client_token">07a73cb141188f54e339aa25977911cf</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "459321291658",
+    "project_id": "amst-lab2-firebase-477d6",
+    "storage_bucket": "amst-lab2-firebase-477d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459321291658:android:5dddec435d848d78474e73",
+        "android_client_info": {
+          "package_name": "com.example.appamst_lab2_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459321291658-m679b2b0d8ac3m0tlq788u7oqreuk8ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appamst_lab2_firebase",
+            "certificate_hash": "dc3ed30f0092a534cc38b9e2ca1bb74363973156"
+          }
+        },
+        {
+          "client_id": "459321291658-g5egl1905fkthhqoc0lcsbfcnsj7kqnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6OS3H0HPqkNXZx0cnUlCbBi5xsddcx-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459321291658-g5egl1905fkthhqoc0lcsbfcnsj7kqnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
